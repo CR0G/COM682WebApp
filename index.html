@@ -125,7 +125,7 @@
 <script src="JS/bootstrap.js"></script>
 <script src="JS/bootstrap.bundle.min.js"></script>
 <script src="JS/jquery-3.6.0.min.js"></script>
-<script src="JS/imageGallery.js"></script>
+<script src="JS/modGallery.js"></script>
 
 </head>
 
@@ -147,17 +147,17 @@
   <!-- Header -->
   <div class="row">
     <div class="col text-center">
-      <h3>Image Gallery</h3>
+      <h3>Mod Gallery</h3>
     </div>
   </div>
 
-  <!-- View Asset Area -->
+  <!-- View AMod Area -->
   <div class="row mt-4">
     <div class="col-2"></div>
 
     <div class="col-8">
       <div style="padding:5px;">
-        <button id="retImages" type="button" class="btn btn-primary">View Images</button>
+        <button id="retImages" type="button" class="btn btn-primary">View Mods</button>
       </div>
 
       <div id="ImageList">
@@ -166,44 +166,6 @@
     </div>
 
     <div class="col-2"></div>
-  </div>
-</div>
-
-
-<!-- Sticky Bottom Upload Panel -->
-<div class="container">
-  <div id="uploadPanel" class="mt-5 mb-5">
-    <h5>Add Image</h5>
-
-    <form style="font-size: 10pt;" id="newAssetForm">
-      <div class="row">
-        <div class="col-md-3 mb-2">
-          <label for="FileName" class="form-label">File Name</label>
-          <input type="text" class="form-control" id="FileName">
-        </div>
-
-        <div class="col-md-2 mb-2">
-          <label for="userID" class="form-label">User Id</label>
-          <input type="string" class="form-control" id="userID">
-        </div>
-
-        <div class="col-md-3 mb-2">
-          <label for="userName" class="form-label">User Name</label>
-          <input type="text" class="form-control" id="userName">
-        </div>
-
-        <div class="col-md-3 mb-2">
-          <label for="UpFile" class="form-label">File to Upload</label>
-          <input type="file" class="form-control" id="UpFile">
-        </div>
-
-        <div class="col-md-1 d-flex align-items-end mb-2">
-          <button type="button" id="subNewForm" class="btn btn-primary w-100">
-            Submit
-          </button>
-        </div>
-      </div>
-    </form>
   </div>
 </div>
 
